@@ -1,0 +1,34 @@
+#abdiv{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 8.5%;
+    border: 2px solid rgb(192, 217, 239);
+}
+.abmaindiv{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top right,grey,rgb(184, 246, 246));
+}
+#abmainhead{
+    text-align: center;
+    font-size: 3.3rem;
+    padding: 10px;
+    color: blue;
+}
+.abvm{
+    font-size: 1.5rem;
+    padding-left: 10px;
+    color: rgb(64, 57, 57);
+}
+.abtext{
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    text-align: justify;
+    padding-right: 10px;
+}

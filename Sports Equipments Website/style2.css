@@ -1,0 +1,465 @@
+
+/* Main section styling sports,fitness,shoes */
+
+#main-div {
+    width: 100%;
+    height: 665vh;
+    background-color: #f2ebe9;
+}
+
+#flex-list-main-div {
+    width: 100%;
+    height: 90vh;
+    /* background-color: rgb(188, 239, 216); */
+    background-color: #f2ebe9;
+    display: flex;
+    padding: 10px;
+
+}
+
+.item-main-div {
+    width: 31%;
+    height: 80vh;
+    background-color: transparent;
+    margin: 1.1%;
+    margin-top: 6vh;
+
+}
+
+.item-main-img {
+    width: 100%;
+    height: 76vh;
+    border: 2px solid blue;
+    border-radius: 8px;
+    padding: 1px;
+
+}
+
+.item-main-img:hover {
+    box-shadow: 0 0 15px -2px #444444;
+    padding: 2px;
+    border: 2px solid rgb(7, 7, 181);
+}
+
+.containeronimage-main-list {
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 255, 255, 0.500);
+    position: relative;
+    bottom: 10.5vh;
+    margin: 0px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.textonimage-main-list {
+    width: 50%;
+    height: 15px;
+    color: rgb(25, 24, 24);
+    position: relative;
+    bottom: 17vh;
+    left: 40%;
+    text-decoration: none;
+}
+
+/* Customized service styling */
+
+.customized-main-head {
+    color: rgb(223, 12, 79);
+    text-align: center;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.1rem;
+    margin: 10px 0px;
+    background-color: transparent;
+}
+
+.customized-service {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    background-color: transparent;
+}
+
+.customized-service-option {
+    width: 31%;
+    height: 40vh;
+    margin: 1.1%;
+    margin-bottom: 2%;
+    text-align: center;
+
+}
+
+.customized-service-subheading {
+    margin-bottom: 5px;
+    color: rgb(69, 31, 196);
+}
+
+.customized-service-image {
+    width: 100%;
+    height: 42vh;
+    margin: 1.1%;
+    border: 1.5px solid rgb(223, 12, 79);
+    border-radius: 4px;
+    padding: 1px;
+
+}
+
+.customized-service-image:hover {
+    box-shadow: 0 0 15px -2px #444444;
+    padding: 2px;
+    border: 2px solid darkmagenta;
+}
+
+/* New category styling */
+
+.newcategory-heading {
+    color: rgb(149, 86, 8);
+    text-align: center;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.1rem;
+    margin: 15px 0px;
+    margin-bottom: 25px;
+}
+
+.newcategory {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.newcategory-option {
+    width: 49%;
+}
+
+.newcategory-image {
+    width: 98%;
+    padding: 1px;
+    margin: 0px 20px;
+    border-radius: 5px;
+    border: 1.5px solid darkred;
+    padding: 1px;
+
+}
+
+.newcategory-image:hover {
+    box-shadow: 0 0 15px -2px #444444;
+    padding: 4px;
+    border: 2px solid blue;
+}
+
+.ncimage1 {
+    margin-right: 15px;
+}
+
+.ncimage2 {
+    margin-left: 25px;
+}
+
+/* Bestsellers */
+
+.bestsellers-heading {
+    text-align: center;
+    color: green;
+    letter-spacing: 0.1rem;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.bestsellers-outer-container {
+    width: 90%;
+    height: 135vh;
+    background-color: aliceblue;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 5%;
+    gap: 15px;
+    padding: 26px 0;
+    border: 1px solid rgb(215, 227, 236);
+}
+
+.bestsellers-inner-container {
+    width: 23.3%;
+    height: 62vh;
+    background-color: aliceblue;
+    border: 1px solid rgb(214, 222, 228);
+    padding: 0.5%;
+    border-radius: 5px;
+}
+
+.bestsellers-inner-container:hover {
+    box-shadow: 0 0 15px -2px #444444;
+}
+
+.bestesellers-image {
+    width: 99.5%;
+    border-radius: 5px;
+}
+
+.bestsellers-nametext-container {
+    height: 5vh;
+    background-color: rgba(0, 255, 255, 0.203);
+    border-radius: 5px;
+}
+
+.bestsellers-nametext {}
+
+.bestsellers-mrp {
+    text-decoration: line-through;
+    color: rgb(63, 61, 61);
+    display: inline;
+}
+
+.bestsellers-dis {
+    color: brown;
+    margin-left: 10px;
+}
+
+.bestsellers-sp {
+    font-weight: bold;
+}
+
+.buynow-button {
+    background-color: #444444;
+    padding: 6px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.buynow-button:hover {
+    box-shadow: 0 0 15px -2px #444444;
+    border: 1px solid lightblue;
+}
+
+.buynow-text {
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* Major sports brand */
+
+.sportsbrand {
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+}
+
+.sportsbrand-text {
+    color: blue;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.1rem;
+    margin: 15px;
+    margin-top: 40px;
+}
+
+.sportsbrand-image {
+    width: 90%;
+    border: 1.5px solid rgb(180, 203, 223);
+    border-radius: 10px;
+    /* box-shadow: 0 0 15px -2px #444444; */
+}
+
+/* Testimonalials section styling */
+
+.testimonial-heading {
+    text-align: center;
+    color: brown;
+    letter-spacing: 0.1rem;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+.testimonial-outer-container {
+    width: 100%;
+    height: 70vh;
+    margin: 10px 0px 10px 0px;
+}
+
+.testimonial-container {
+    width: 90%;
+    background-color: rgb(237, 229, 217);
+    text-align: justify;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 5%;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1.5px solid rgb(240, 182, 182);
+
+}
+
+/* about styling */
+
+.about-heading {
+    text-align: center;
+    color: green;
+    letter-spacing: 0.1rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.about-outer-container {
+    width: 100%;
+    height: 55vh;
+    background-color: transparent;
+    margin: 10px 0px 30px 0px;
+}
+
+.about-inner-container {
+    width: 90%;
+    height: 53vh;
+    position: absolute;
+    left: 5%;
+    display: flex;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: 1.5px solid rgb(153, 235, 153);
+
+}
+
+.about-image-container {
+    width: 40%;
+    height: 53vh;
+    border-radius: 10px;
+
+}
+
+.storeimage {
+    width: 100%;
+    height: 52.5vh;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.about-container {
+    width: 55%;
+    background-color: antiquewhite;
+    text-align: justify;
+    overflow: auto;
+}
+
+.about-description {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-top: 35px;
+    padding-left: 55px;
+}
+
+/* Shop advantage styling */
+.shopadvantage-outer-container {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    text-align: center;
+}
+
+.shopadvantage-inner-containers {
+    margin: 15px 2%;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px -2px #444444;
+}
+
+.shopadvantage-image {
+    width: 90px;
+    margin
+}
+
+/* Footer styling */
+
+.footer-container {
+    width: 100%;
+    height: 45vh;
+    background-color: rgba(0, 0, 0, 0.529);
+    display: flex
+}
+
+.footer-inner-container {
+    margin: 20px;
+    padding: 20px;
+}
+
+.footer-quicklink {
+    width: 25%;
+    height: 40vh;
+}
+
+.footer-contactus {
+    width: 30%;
+    height: 40vh;
+}
+
+.footer-payment {
+    width: 20%;
+    height: 40vh;
+}
+
+.footer-newsletter {
+    width: 35%;
+    height: 40vh;
+    text-align: center;
+}
+
+.footer-headings {
+    font-size: 1.45rem;
+    margin-bottom: 12px;
+}
+
+.footer-links {
+    text-decoration: none;
+}
+
+.footer-links-name {
+    text-align: left;
+    margin: 2px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.footer-contact-address {
+    margin-bottom: 8px;
+}
+
+#email-newsletter {
+    width: 65%;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 6px 2px;
+    padding-left: 5px;
+}
+
+#subscribe-button {
+    width: 65%;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 6px 2px;
+    color: white;
+    background-color: rgb(21, 21, 141);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#subscribe-button:hover {
+    background-color: rgb(8, 8, 74);
+}
+
+#secureconnection {
+    margin: 7px;
+    margin-top: 25px;
+}
+
+.copyright-footer-container {
+    width: 100%;
+    text-align: center;
+    background-color: #37343496;
+    padding: 8px 0px;
+}

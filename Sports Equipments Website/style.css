@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* NAV BAR STYLING */
+
+
+.nav-outer-container {
+    width: 100%;
+    height: 3.5rem;
+    background-color: rgb(211, 238, 226);
+    box-shadow: 1.5px 1.5px 15px #444444;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.nav-inner-container-speqicon {
+    margin-left: 50px;
+}
+.speqimage{
+    width: 12%;
+}
+.nav-inner-container-links {
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+    right: 34%;
+}
+
+.navlinks {
+    text-decoration: none;
+}
+
+.navlinks-text {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: white;
+    background-color: #00203fff;
+    margin: 0.8rem 0.5rem;
+    padding: 2px 10px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 6px black;
+}
+
+.navlinks-text:hover {
+    background-color: #4d041e;
+}
+
+.nav-inner-container-account {
+    width: 13%;
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+    right: 35px;
+}
+
+.navicon-image {
+    width: 30px;
+    margin: 0.8rem 1rem;
+
+}
+
+.navicon-image:hover {
+    border: 2px solid transparent;
+}
+
+
+/* Search Bar Styling */
+
+
+.search-container {
+    width: 25%;
+    height: 2.4rem;
+    background-color: #444444c7;
+    position: fixed;
+    top: 3.5rem;
+    right: 0;
+    z-index: 1;
+    display: inline;
+    border-radius: 8px;
+}
+.search-container:hover{
+    box-shadow: 0 0 15px -2px #444444;
+}
+.searchbar {
+    width: 73%;
+    margin-left: 0px;
+}
+
+.searchbar-input {
+    width: 100%;
+    margin: 5px;
+    padding: 4px;
+    border: 2px solid #f0a9a9;
+    border-radius: 5px;
+}
+.searchbar-input:hover{
+    box-shadow: 0 0 15px -2px #444444;
+    border: 2px solid #da6c6c;
+}
+.search-button {
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 5px 6px 5px 10px;
+    padding: 1px 10px;
+    background-color: #95dbe5ff;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 2.5px;
+}
+.search-button:hover{
+    box-shadow: 0 0 15px -2px #444444;
+    border: 1px solid black;
+}
+
+/* Enquire on Whatsapp Styling */
+
+
+.enquireonwhatsapp {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    position: fixed;
+    bottom: 100px;
+    right: 3.5%;
+    z-index: 2;
+}
+
+.enquireonwhatsapp:hover {
+    border: 4px solid transparent;
+}
+
+
+/* Back to Top Button Styling */
+
+
+.backtotop {
+    width: 5rem;
+    position: fixed;
+    bottom: 35px;
+    right: 3.5%;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.backtotop:hover {
+    border: 4px solid transparent;
+}
+
+main {
+    margin-top: 3.5rem;
+
+}

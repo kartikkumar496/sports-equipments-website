@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.bestsellers-heading{
+    text-align: center;
+    color: green;
+    letter-spacing: 0.1rem;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.bestsellers-outer-container {
+    width: 90%;
+    height: 135vh;
+    background-color: aliceblue;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 5%;
+    gap: 15px;
+    padding: 26px 0;
+    border: 1px solid rgb(215, 227, 236);
+}
+
+.bestsellers-inner-container {
+    width: 23.3%;
+    height: 62vh;
+    background-color: aliceblue;
+    border: 1px solid rgb(214, 222, 228);
+    padding: 0.5%;
+    border-radius: 5px;
+}
+.bestsellers-inner-container:hover{
+    box-shadow: 0 0 15px -2px #444444;
+}
+.bestesellers-image {
+    width: 99.5%;
+    border-radius: 5px;
+}
+
+.bestsellers-nametext-container{
+    height: 5vh;
+    background-color: rgba(0, 255, 255, 0.203);
+    border-radius: 5px;
+}
+.bestsellers-nametext {}
+
+.bestsellers-mrp {
+    text-decoration: line-through;
+    color: rgb(63, 61, 61);
+    display: inline;
+}
+.bestsellers-dis{
+    color: brown;
+    margin-left: 10px;
+}
+.bestsellers-sp {
+    font-weight: bold;
+}
+.buynow-button{
+    background-color: #444444;
+    padding: 6px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.buynow-button:hover{
+    box-shadow: 0 0 15px -2px #444444;
+    border: 1px solid lightblue;
+}
+.buynow-text{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+}
